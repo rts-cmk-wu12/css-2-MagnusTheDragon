@@ -1,0 +1,23 @@
+/* --- Resets --- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+/* --- Imports --- */
+@import url(blank);
+
+/* --- Pre-load --- */
+:root {
+    --x: #fff;
+}
+.caps{
+    text-transform: uppercase;
+}
+
+/* --- Colors --- */
+:root{
+    --x: #fff;
+}
