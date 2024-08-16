@@ -16,15 +16,13 @@ a{
 @import url(blank);
 
 /* --- Pre-load --- */
-:root {
-    --x: #fff;
-}
 .caps{
     text-transform: uppercase;
+    font-weight: bold;
 }
 .icon {
-    width: 2rem;
-    height: 2rem;
+    max-width: 1rem;
+    max-height: 1rem;
 }
 /* --- Colors --- */
 :root{
@@ -40,9 +38,20 @@ header .navbar{
     justify-content: space-between;
     border-bottom: var(--gray) 0.5px solid;
     width: 100%;
+    align-items: center;
+    font-size: 1rem;
+}
+.header-logo{
+    height: 8rem;
+    max-width: 200rem;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 header .navbar div{
     display: flex;
+}
+header nav{
+    padding: 0.5rem 0;
 }
 header nav ul{
     display: flex;
