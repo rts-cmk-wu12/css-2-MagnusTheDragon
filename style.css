@@ -5,6 +5,12 @@
     box-sizing: border-box;
     color: inherit;
 }
+img {
+    max-width: 10rem
+}
+a{
+    text-decoration: none
+}
 
 /* --- Imports --- */
 @import url(blank);
@@ -16,8 +22,41 @@
 .caps{
     text-transform: uppercase;
 }
-
+.icon {
+    width: 2rem;
+    height: 2rem;
+}
 /* --- Colors --- */
 :root{
-    --x: #fff;
+    --gray: #dfdfdf;
+    --red: #ff0000;
+}
+
+/* ###--- Navbar ---### */
+
+header .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: var(--gray) 0.5px solid;
+    width: 100%;
+}
+header .navbar div{
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+header nav ul li{
+    padding: 0 1.25rem;
+    font-weight: bold;
+}
+header nav ul li:last-child{
+    color: var(--red);
+}
+
+header {
+    border-bottom: var(--gray) 2px solid;
 }
