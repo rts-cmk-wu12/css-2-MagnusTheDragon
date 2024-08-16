@@ -13,7 +13,14 @@ a{
 }
 
 /* --- Imports --- */
-@import url(blank);
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.font1{font-family: "Bebas Neue", sans-serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+.font2{font-family: "Bitter", serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+.font3{font-family: "Libre Franklin", sans-serif;}
 
 /* --- Pre-load --- */
 .caps{
@@ -21,13 +28,13 @@ a{
     font-weight: bold;
 }
 .icon {
-    max-width: 1rem;
-    max-height: 1rem;
+    max-width: 1.3rem;
+    max-height: 1.3rem;
 }
 /* --- Colors --- */
 :root{
     --gray: #dfdfdf;
-    --red: #ff0000;
+    --red: #e40000;
 }
 
 /* ###--- Navbar ---### */
@@ -41,8 +48,20 @@ header .navbar{
     align-items: center;
     font-size: 1rem;
 }
+.icon-burger{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.icon-search{
+    cursor: pointer;
+}
+.icon-user{
+    cursor: pointer;
+}
 .header-logo{
-    height: 8rem;
+    height: 9rem;
     max-width: 200rem;
     padding-bottom: 1rem;
     padding-top: 2rem;
@@ -65,7 +84,10 @@ header nav ul li{
 header nav ul li:last-child{
     color: var(--red);
 }
-
+header nav ul li:hover{
+    transform: scale(1.1,1.1);
+    transition-duration: 50ms;
+}
 header {
     border-bottom: var(--gray) 2px solid;
 }
