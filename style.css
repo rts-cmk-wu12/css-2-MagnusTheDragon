@@ -38,6 +38,16 @@ a{
     max-width: 1.3rem;
     max-height: 1.3rem;
 }
+.abonnement{
+    color: var(--red);
+    font-weight: bold;
+}
+.abonnement span{
+    color: var(--gray);
+    margin-left: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
 /* --- Colors --- */
 :root{
     --gray: #dfdfdf;
@@ -125,11 +135,54 @@ div.annoncement div p{
     color: var(--dgray);
 }
 div.annoncement div{
-    transform: translate(58.4rem, 3rem);
+    transform: translate(57.8rem, 4rem);
 }
 
 /* ###--- Feed ---### */
+.feed-wrapper{
+    margin-left: 37rem;
+}
 
-section.feed{
-    
+.feed-title h1{
+    font-weight: bold;
+    max-width: 42rem;
+    font-size: 2rem;
+}
+.feed-title p{
+    max-width: 35rem;
+}
+
+.feed-two {
+    margin-left: 26em;
+    padding-top: 1rem;
+    display: flex;
+}
+.feed-two div{
+    padding-right: 1rem;
+}
+.feed-two p{
+    width: 12rem;
+    direction: rtl;
+}
+.feed-two .feed-user{
+    direction: rtl;
+
+}
+
+.feed-two .feed-photo img{
+    max-width: 40rem;
+    height: 20rem;
+}
+
+
+
+
+
+/* ###--- Footer ---### */
+
+footer .e-avis div{
+    display: flex;
+}
+footer .e-avis div img{
+    margin-right: 0.2rem;
 }
