@@ -140,7 +140,7 @@ div.annoncement div{
 
 /* ###--- Feed ---### */
 .feed-wrapper{
-    margin-left: 37rem;
+    margin-left: 36.5rem;
 }
 
 .feed-title h1{
@@ -153,7 +153,7 @@ div.annoncement div{
 }
 
 .feed-two {
-    margin-left: 26em;
+    margin-left: 23.5rem;
     padding-top: 1rem;
     display: flex;
 }
@@ -167,14 +167,23 @@ div.annoncement div{
 .feed-two .feed-user{
     direction: rtl;
 
+
 }
 
 .feed-two .feed-photo img{
-    max-width: 40rem;
-    height: 20rem;
+    max-width: 50rem;
+    height: 26.5rem;
+}
+.feed-two .feed-icon{
+    width: 1rem;
+    height: 1rem;
+    transform: translate(1.4rem, 0.1rem);
 }
 
-
+.feed-peter{
+    display: flex;
+    transform: translateX(-1rem);
+}
 
 
 
